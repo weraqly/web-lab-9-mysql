@@ -1,0 +1,87 @@
+#other_s {
+  text-align: center;
+}
+
+#more_information {
+  font-size: 40px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+  margin-top: 20px;
+}
+
+.image-containerr {
+  width: 30%; 
+  text-align: center;
+  overflow: hidden;
+}
+
+.other-immage {
+  width: 100%;
+  height: 400px; 
+  object-fit: cover; 
+  transition: transform 0.4s ease; 
+}
+
+.image-container:hover .other-image {
+  transform: scale(1.1); 
+}
+
+button {
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 3px 45px;
+  font-weight: 600;
+  color: #ffffff;
+  background: black;
+}
+
+button:hover {
+  opacity: .7;
+}
+
+.image-container p {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.image_container_fog {
+  width: 100vw;
+  position: relative;
+  display: inline-block;
+}
+
+.image_container_fog::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+.imagee {
+  display: block;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.image_container_fog img {
+  position: relative;
+  z-index: 0;
+}
+
+.el_name {
+  font-size: 30px;
+  font-weight: 500;
+}

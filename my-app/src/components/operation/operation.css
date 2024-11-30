@@ -1,0 +1,25 @@
+.downheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.choose_buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.downheader button {
+    padding: 8px 16px;
+    font-size: 1em;
+    cursor: pointer;
+}
